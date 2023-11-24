@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+  
+h1,button{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+}  
+
+.container {
+    display: flex;
+    min-height: 100%;
+}
+
+.box-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    border: 3px solid silver;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-chat h1{
+    font-size: 40px;
+}
+.box-chat .text{
+    width: 600px;
+}
+
+/* Usuario principal */
+.box-users {
+    flex: 4;
+    max-width: 350px;
+}
+
+.box-users-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid silver;
+}
+
+.box-users-main-contain{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+}
+
+.box-users-main-contain img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-info p{
+    width: 120px;
+    color: #BEC1BB;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+}
+
+.icons{
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-bottom: 3px solid silver;
+}
+
+.btn button{
+    height: 80px;
+    width: 250px;
+    background-color: #a491d2 ;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.btn button:hover{
+    background-color: #926be7 ;
+    cursor: pointer;
+}
+
+.user-info .text-chat{
+    font-size: 18px;
+    color: #1b1f21;
+}
+
+
+/* Usuarios de chat */
+
+.box-other-main{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid silver;
+    
+}
+
+.box-other-main-contain{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 80px;   
+    padding-left: 20px;
+}
+
+.box-other-main-contain img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
